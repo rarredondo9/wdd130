@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Wix+Madefor+Display&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,13 +8,18 @@
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 nav a{
     text-align: center;
     color: #fefae0;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -27,16 +35,29 @@ main section{
 }
 #background {
     height: 725px;
-    background-color: #fefae0; 
+    background-color: #dda15e; 
 }
 body{
     background-color: #fefae0; 
+    font-family: Wix Madefor Display;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Raleway;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #606c38; 
 }
 .home-title{
     color: #283618;
+    font-family: Raleway;
+    font-size: 2em;
+    margin-top: 10px;
 }
 nav a:hover{
     background-color: #dda15e; 
@@ -46,29 +67,52 @@ nav a:hover{
     background-color: #fefae0; 
     color: #606c38;
     text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     background-color: #283618; 
     color: #ffffff;
+    border-radius: 5px;
 }
 h4{
     color: #606c38;
 }
+main section img{
+    box-sizing: border-box;
+}
 .msg{
     background-color: #d9c2a3; 
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #283618;
+    font-family: Raleway;
 }
 .msg p{
     color: #283618;
+    font-family: Wix Madefor Display;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #283618 ;
 }
 footer{
     background-color: #283618;
-    color: #dda15e; 
+    color: #dda15e;
+    padding: 25px 50px; 
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
+    font-family: raleway;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -76,6 +120,10 @@ footer p a:hover {
 footer a{
     color: #dda15e;
     text-decoration: none;
+    font-family: Wix Madefor Display;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a:hover{
     color: #dda15e;
