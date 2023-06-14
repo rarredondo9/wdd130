@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Wix+Madefor+Display&display=swap');
 
 
 #content{
@@ -111,6 +111,9 @@ main section{
 .card-img:hover{
     opacity: .6;
     transform: scale(1.1);
+}
+.rivers-card, .camping-card, .rapids-card{   
+    margin: 200px 0;
 }
 .rivers-card{
     grid-column: 2/4;
