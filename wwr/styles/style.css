@@ -179,7 +179,7 @@ footer{
     background-color: #283618;
     color: #dda15e;
     padding: 25px 50px; 
-    margin-top: 200px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -202,6 +202,179 @@ footer .social img{
 footer a:hover{
     color: #dda15e;
 }
+
+#content-rates{
+    max-width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: #606c38; 
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #fefae0;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #dda15e; 
+    color: #000000;
+}
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    width: 100%;
+  }
+  #page-title {
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/13;
+    background-color: #dda15e; 
+    text-align: center;
+    padding-bottom: 10px;  
+  }
+  section.rates-title h1{
+    font-size: 25px;
+  }
+  #canyon1-img{
+    width: 500px;
+    height: 310px;
+  }
+  .canyon1-card {
+    grid-row: 2/4;
+    grid-column: 1/5;
+  }
+  
+  .canyon-three-nighter {
+    grid-row: 2/4;
+    grid-column: 5/9;
+    background-color: #d9c2a3;
+    height: 300px;
+    width: 100%;
+  }
+  section.canyon-three-nighter h1{
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  section.canyon-three-nighter p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 0.5;
+  }
+  .rafting1-img{
+    width: 100%;
+    height: 300px;  
+  }
+  .rafting1-card {
+    grid-row: 2/4;
+    grid-column: 9/13;
+  }
+  
+  .canyon-six-nighter {
+    grid-row: 4/6;
+    grid-column: 1/5;
+    background-color: #d9c2a3;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  section.canyon-six-nighter h1{
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  section.canyon-six-nighter p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 0.5;
+  }
+  .river2-img{
+    width: 500px;
+    height: 300px;
+  }
+  .river2-card {
+    grid-row: 4/6;
+    grid-column: 5/8;
+  }
+  .salmon {
+    grid-row: 4/6;
+    grid-column: 10/13;
+    background-color: #d9c2a3;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  section.salmon h1{
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  section.salmon p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 0.5;
+  }
+  .rafting2-img{
+    width: 500px;
+    height: 100%;
+  }
+  .rafting2-card {
+    grid-row: 6/8;
+    grid-column: 1/6;
+  }
+  
+  .desolation {
+    grid-row: 6/8;
+    grid-column: 6/10;
+    background-color: #d9c2a3;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  section.desolation h1{
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  section.desolation p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 0.5;
+  }
+  .canyon2-img{
+    width: 100%;
+    height: 100%;
+  }
+  .canyon2-card {
+    grid-row: 6/8;
+    grid-column: 10/13;
+  }
+  
+  #clarification {
+    width: 100%;
+    grid-row: 8/9;
+    grid-column: 1/13;
+    background-color: #dda15e;
+    text-align: center;
+
+  }
+  section#clarification p{
+    font-size: 15px;
+    text-align: center;
+  }
+  
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
