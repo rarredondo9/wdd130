@@ -204,7 +204,7 @@ footer a:hover{
 }
 
 #content-rates{
-    max-width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
 }
 header{
@@ -239,6 +239,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     width: 100%;
+    row-gap: 40px;
   }
   #page-title {
     width: 100%;
