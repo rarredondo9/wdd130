@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Grenze:wght@700&display=swap');
+
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #FFEFD9   ;
+  --secondary-color: #C3B092 ;
+  --accent1-color: #867153;
+  --accent2-color: #64471D;
+  --accent3-color: #3c2302;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: Grenze , serif;
+  --paragraph-font: "Architects Daughter", cursive;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #3C2302;  /* headlines on a white background */ 
+  --headline-color-on-color: #FFEFD9; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #64471D; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FFEFD9; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #C3B092  ;
+  --nav-link-color: #3C2302;
+  --nav-background-color: #867153;
+  --nav-hover-link-color: #FFEFD9;
+  --nav-hover-background-color: #64471D;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color: #FFEFD9; 
+    font-family: Grenze, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4 {
+    font-family: Grenze, serif;
+    margin: 0;
+}
+
+p{
+    font-size: 1em;
+    font-family: "Architects Daughter", cursive;
+}
+
+header{
+    background-color: #867153; 
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #3c2302;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #FFEFD9; 
+    color: #867153;
+}
+.logo{
+    width: 100px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#page-title{
+    background-color: #FFEFD9; 
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.home-title{
+    color: #3C2302;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+.content-title{
+    color: #64471D;
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+h1{
+    font-size: 60;
+    text-align: center;
+}
+
+h2{
+    font-size: 50;
+    text-align: center;
+    color: #64471D;
+}
+h4{
+    font-size: 35;
+    text-align: center;
+    color: #867153
+}
+
+.home-content{
+    background-color: #FFEFD9; 
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#raspberry-cheesecake-link{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-content: center;
+}
+.raspberry-cheesecake-img{
+    width: 500px;
+    margin-left: 375px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3C2302;
+}
+.raspberry-cheesecake-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.raspberry-title{
+    text-decoration: underline;
+}
+#corn-cake-link{
+    grid-row: 3/4;
+    grid-column: 1/3;
+    justify-content: center;
+}
+.corn-cake-img{
+    width: 500px;
+    margin-left: 375px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3C2302;
+}
+.corn-cake-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.corn-title{
+    text-decoration: underline;
+}
+#about-us{
+    grid-row: 5/6;
+    grid-column: 1/3;
+    text-align: center;
+    margin: 100px;
+}
+#about-us h3{
+    color: #3c2302;
+}
+#about-us p{
+    color: #64471D;
+}
+footer{
+    background-color: #3c2302;
+    color: #867153;
+    padding: 25px 50px; 
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2em;
+    font-family: "Architects Daughter", cursive;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a{
+    color: #867153;
+    text-decoration: none;
+    font-family: "Architects Daughter", cursive;
+}
+footer .social img{
+    padding-top: 15px;
+}
+footer a:hover{
+    color: #FFEFD9;
+}
+
+
