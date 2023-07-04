@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Avia's Cooking | Contact Us </title>
 <body>
     <div id="content">
@@ -17,6 +17,7 @@
                 <a href="raspberry-cheesecake.html">Raspberry Cheesecake</a>
                 <a href="corn-cake.html">Corn Cake</a>
                 <a href="contactus.html">Contact Us</a>
+                <input type="text" name="search" placeholder="Search..">
             </nav>
         </header> 
         <section id="page-title">
@@ -26,23 +27,23 @@
         <main>
             <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <il>
+                <section>
+                    <div>
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="user_name" />
-                    </il>
-                    <il>
+                    </div>
+                    <div>
                         <label for="mail">Email:</label>
                         <input type="email" id="mail" name="user_email" />
-                    </il>
-                    <li>
+                    </div>
+                    <div>
                         <label for="msg">Message:</label>
                         <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="button">
+                    </div>
+                    <div class="button">
                         <button type="submit"> Send your Message</button>
-                    </li>
-                </ul>
+                    </div>
+                </section>
             </form>
         </main>
         <footer>
