@@ -65,6 +65,21 @@ nav a:hover{
     background-color: #FFEFD9; 
     color: #867153;
 }
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    height: 30px;
+    margin-top: 35px;
+    background-color: #FFEFD9; 
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 200px;
+  }
+
 .logo{
     width: 100px;
 }
@@ -149,7 +164,7 @@ h4{
 #about-us{
     grid-row: 5/6;
     grid-column: 1/3;
-    text-align: center;
+    align-items: center;
     margin: 100px;
 }
 #about-us h3{
