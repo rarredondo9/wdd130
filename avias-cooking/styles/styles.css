@@ -203,6 +203,7 @@ h4{
     background-color: #FFEFD9;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    margin-top: 100px;
 }
 
 #background{
