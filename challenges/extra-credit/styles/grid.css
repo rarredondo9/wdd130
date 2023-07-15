@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 2em 0;
+  background-color: lightgrey;
+  align-items: center;
+}
+
+.grid1 h1 {
+  grid-column: 1 / -1;
+}
+
+.grid2 {
+  grid-column: 2 / 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: white;
+  align-items: center;
+}
+
+.grid2 h2 {
+  grid-column: 1 / span 6;
+  text-align: center;
+}
+
+.grid3 {
+  grid-column: 7 / span 6;
+  padding: 1rem;
+  background-color: lightgreen;
+  align-items: center;
+}
+
+.grid3 h3 {
+  grid-column: 1 / span 6;
+}
+
+.grid4 {
+  grid-column: 4 / 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 1rem;
+  background-color: lightblue;
+  align-items: center;
+}
+
+.grid4 h2 {
+  grid-column: 1 / -1;
+}
+
+section {
+  grid-column: 2 / 10;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background-color: white;
+  align-items: center;
+  padding: 1rem;
+}
+
+section h2 {
+  grid-column: 1 / -1;
+}
+
+form {
+  grid-column: 2 / 6;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background-color: lightyellow;
+  padding: 1rem;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: 700;
+  grid-column: 1 / -1;
+}
+
+fieldset {
+  grid-column: 1 / -1;
+  align-items: center;
+  grid-gap: 0 1em;
+}
+
+fieldset > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+label {
+  grid-column: 1 / 2;
+  text-align: right;
+}
+
+input {
+  grid-column: 2 / 3;
+  width: 100%;
+}
+
+button {
+  grid-column: 1 / -1;
+  width: 100%;
+  background-color: blue;
+  padding: 1rem;
+}
+
+section > div {
+  grid-column: 1 / -1;
+  padding: 1rem;
+}
