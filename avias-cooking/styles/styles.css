@@ -338,6 +338,53 @@ h4{
     margin-right: 3%;
 }
 
+/*Contact Us*/
+form {
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #FFEFD9;
+    padding: 1rem;
+  }
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+    grid-column: 1 / -1;
+  }
+  
+  fieldset {
+    grid-column: 1 / -1;
+    align-items: center;
+    grid-gap: 0 1em;
+  }
+  
+  fieldset > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  label {
+    grid-column: 1 / 2;
+    text-align: right;
+  }
+  
+  input {
+    grid-column: 2 / 3;
+    width: 100%;
+  }
+  
+  button {
+    grid-column: 1 / -1;
+    width: 100%;
+    background-color: #64471D;
+    padding: 1rem;
+  }
+  
+
 footer{
     background-color: #3c2302;
     color: #867153;
@@ -364,12 +411,4 @@ footer .social img{
 }
 footer a:hover{
     color: #FFEFD9;
-}
-
-
-@media screen and (max-width: 900px) {
-    header, nav, main, footer {
-        display: block;
-    }
-
 }

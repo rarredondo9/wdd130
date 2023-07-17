@@ -26,24 +26,39 @@
         </section>
         <main>
             <div id="feedback"></div>
-            <form action="/my-handling-form-page" method="post">
-                <div>
-                   <label for="name">Name:</label>
-                   <input type="text" id="name" name="user_name">
-                </div>
-            
-                <div>
-                   <label for="mail">E-mail:</label>
-                   <input type="email" id="mail" name="user_email">
-                </div>
-            
-                <div>
-                   <label for="msg">Message:</label>
-                   <textarea id="msg" name="user_message"></textarea>
-                </div>
-            
-                <button type="submit">Send your message</button>
-            </form>
+            <form action="#">
+                <fieldset>
+                  <legend>Form 2 - Grid 7</legend>
+                  <div>
+                    <label for="name1">First Name:</label>
+                    <input
+                      type="text"
+                      id="name1"
+                      name="firstname"
+                      required
+                      placeholder="First Name"
+                    />
+                    <label for="name2">Last Name:</label>
+                    <input
+                      type="text"
+                      id="name2"
+                      name="lastname"
+                      required
+                      placeholder="LastName"
+                    />
+                  </div>
+                  <div>
+                    <label for="email2">Email: </label>
+                    <input
+                      type="email"
+                      id="email2"
+                      name="email2"
+                      placeholder="test@example.com"
+                    />
+                  </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+              </form>
         </main>
         <footer>
             <p>2023 Avia's Cooking. All rights reserved</p>
